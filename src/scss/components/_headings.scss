@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 110%; /* 61.6px */
-    
+
 }
 
 .h2 {
@@ -21,7 +21,18 @@
         line-height: 120%; /* 38.4px */
         margin: 0;
     }
-    
+
+    &__h2-about {
+        color: #2C2D2E;
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Desktop/H2 */
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 57.6px */
+    }
+
 }
 
 .h3 {
