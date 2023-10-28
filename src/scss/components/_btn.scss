@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+    color: var(--text-color-light);
+    background-color: var(--primary-color);
+    border-radius: 1000px;
+
+    &:hover {
+        color: var(--text-color);
+        background-color: var(--bg-color-light);
+    }
+
+    &:active {
+        background-color: var(--primary-color-light);
+        transform: scale(0.98);
+    }
+
+    &:focus {
+        outline: 2px solid var(--text-color);
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}

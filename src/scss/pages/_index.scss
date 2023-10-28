@@ -1,0 +1,41 @@
+.offer {
+    position: relative;
+    padding: 120px 0 120px 0;
+    
+
+    &__content {
+        position: relative;
+    }
+
+    &__title {
+        position: relative;
+        z-index: 2;
+        width: 672px;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        position: relative;
+        z-index: 2;
+        width: 600px;
+        margin-bottom: 44px;
+    }
+
+    &__btn {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__img {
+        position: absolute;
+        z-index: 1;
+        top: 6px;
+        right: -124px;
+        background: var(--bgpicture-color);
+        margin-right: 176px;
+        margin-left: 720px;
+    }
+}
+
+
+
