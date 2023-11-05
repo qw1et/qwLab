@@ -64,11 +64,19 @@
 }
 
 .function-text {
-    color: var(--text-h5-color);
+    color: var(--main-color-secondary);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
     margin: 0;
+}
+
+.footer-logo-text {
+    color: #919399;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
 }
 

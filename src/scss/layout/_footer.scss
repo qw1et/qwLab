@@ -1,0 +1,62 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 0;
+
+    &__company {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__privacy {
+        color: var(--main-color-secondary);
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        
+    }
+
+    &__guide {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    &__link {
+        font-size: 16px;
+        color: var(--main-color-secondary);
+        font-weight: 400;
+        line-height: 130%; /* 20.8px */
+        text-align: center;
+        font-style: normal;
+    }
+
+    &__feedback {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-end;
+    }
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+
+    &__number {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        &__link {
+            color: var(--main-color-secondary);
+
+        }
+    }
+}
