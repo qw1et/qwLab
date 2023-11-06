@@ -346,6 +346,117 @@
         </section>        
         <!-- End Function -->
 
+        <!-- calculator -->
+        <section class="calculator">
+            <div class="calculator-content container">
+                <!-- title -->
+                <h6 class="calculator-content__title calculator-title-text">Калькулятор <br>безопасной сделки</h6>
+                <!-- end title -->
+
+                <!-- content -->
+                <div class="calculator-content__info">
+
+                    <!-- f-block  -->
+                    <article class="calculator-content__info__block">
+                        <!-- title-block1 -->
+                        <p class="calculator-info">Информация о товаре</p>
+                        <select class="calculator-content__info__block__selector" name="divider" id="divider1"></select>
+                        <!-- end title-block1 -->
+
+                        <div class="calculator-content__info">
+                            <div class="items__input">
+                                <label class="input-text" for="lenght">Длина,см</label>
+                                <input class="items__input__box" type="text" placeholder="0 см" name="input-lenght" id="lenght">
+                            </div>
+
+                            <div class="items__input">
+                                <label class="input-text">Ширина,см</label>
+                                <input class="items__input__box" type="text" placeholder="0 см" name="input-width" id="widht">
+                            </div>
+
+                            <div class="items__input">
+                                <label class="input-text">Высота,см</label>
+                                <input class="items__input__box" type="text" placeholder="0 см" name="input-items" id="items">
+                            </div>
+                        </div>
+
+                        <div class="calculator-content__block__price price">
+                            <div class="price__weight">
+                                <label class="input-text" for="weight">Вес,кг</label>
+                                <input class="price__weight__input" type="text" placeholder="0 кг" name="input-weight" id="weight">
+                            </div>
+
+                            <div class="price__weight">
+                                <label class="input-text" for="weight">Оценочная стоимость</label>
+                                <input class="price__weight__input" type="text" placeholder="руб" name="input-price" id="price">
+                            </div>
+                        </div>
+
+                    </article>
+                    <!-- end f-block -->
+
+                    <!-- s-block -->
+                    <article class="calculator-content__info__block">
+                        <!-- title-block2 -->
+                        <p class="calculator-info">Информация по отправке</p>
+                        <select class="calculator-content__info__block__selector"></select>
+                        <!-- end title-block2 -->
+                        
+                        <div class="calculator-content__info__block__location location">
+                            <label class="input-text" for="city">Город отправки</label>
+                            <select name="cities" id="city" class="location__city" onclick = 'this.children[0].remove()'>
+                                <option value="Moskow" selected disabled>Например: Москва</option>
+                            </select>                                                        
+                        </div>
+
+                        <div class="calculator-content__info__block__radio calculator-radio">
+                            <div class="calculator-radio__input">
+                                <input class="calculator-radio__input__delivery" type="radio">
+                                <p class="delivery-input">Забрать от двери</p>
+                            </div>
+
+                            <div class="calculator-radio__input">
+                                <input class="calculator-radio__input__delivery" type="radio">
+                                <p class="delivery-input">Самостоятельная доставка до ПВЗ</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end s-block -->
+
+                    <!-- t-block -->
+                    <article class="calculator-content__info__block">
+                        <!-- title-block3 -->
+                        <p class="calculator-info">Информация о доставке</p>
+                        <select class="calculator-content__info__block__selector" name="divider" id="divider1"></select>
+                        <!-- end title-block3 -->
+                        
+                        <div class="calculator-content__info__block__location location">
+                            <label class="input-text" for="city-location">Город получения</label>
+                            <select class="location__city" name="cities" id="city-select" onclick = 'this.children[0].remove()'>
+                                <option value="Saint-Petersburg" selected disabled>Например: Санкт-Петербург</option>
+                            </select>
+                        </div>
+
+                        <div class="calculator-content__info__block__radio calculator-radio">
+                            <div class="calculator-radio__input">
+                                <input class="calculator-radio__input__delivery" type="radio">
+                                <p class="delivery-input">Доставка до двери</p>
+                            </div>
+
+                            <div class="calculator-radio__input">
+                                <input class="calculator-radio__input__delivery" type="radio">
+                                <p class="delivery-input">Самовывоз</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- end t-block -->
+                </div>
+                <!-- end content -->
+
+                <button class="offer__btn btn reset-btn " style="width: 182px;">Рассчитать</button>
+            </div>
+        </section>
+
     </main>
     <!-- End Main -->
 
